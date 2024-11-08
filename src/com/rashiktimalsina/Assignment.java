@@ -43,18 +43,30 @@ public class Assignment {
 
     public static int calculateHighScorePosition(int pl_score){
 
-        if(pl_score > 1000){
-            return 1;
+//        if(pl_score > 1000){
+//            return 1;
+//        }
+//        else if(pl_score > 500){
+//            return 2;
+//        }
+//        else if(pl_score > 100){
+//            return 3;
+//        }
+//        else{
+//            return 4;
+//        }
+
+        int postion=4;
+        if(pl_score>=1000){
+            postion=1;
         }
-        else if(pl_score > 500 && pl_score < 1000){
-            return 2;
+        else if(pl_score>=500){
+            postion=2;
         }
-        else if(pl_score > 100 && pl_score < 500){
-            return 3;
+        else if(pl_score>=100){
+            postion=3;
         }
-        else{
-            return 4;
-        }
+        return postion;
     }
 
 }
