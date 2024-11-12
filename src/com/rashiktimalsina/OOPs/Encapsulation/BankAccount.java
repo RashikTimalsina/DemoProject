@@ -1,11 +1,15 @@
 package com.rashiktimalsina.OOP_Project1;
 
 public class BankAccount {
+    public String getCustomer_name() {
+        return customer_name;
+    }
     private String account_number;
     private double balance;
     private String customer_name;
     private String customer_email;
     private String customer_phone;
+
     private  double amount;
 
     public void setAccount_number(String account_number) {
@@ -38,10 +42,6 @@ public class BankAccount {
 
     public double getBalance() {
         return balance;
-    }
-
-    public String getCustomer_name() {
-        return customer_name;
     }
 
     public String getCustomer_email() {
