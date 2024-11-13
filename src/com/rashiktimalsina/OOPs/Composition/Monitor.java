@@ -32,4 +32,7 @@ public class Monitor {
     public Resolution getNativeResolution() {
         return nativeResolution;
     }
+
+
+
 }
