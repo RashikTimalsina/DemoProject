@@ -21,6 +21,7 @@ public class Dimensions {
 
     public int getDepth() {
         return depth;
+
     }
 }
 
