@@ -10,10 +10,24 @@ public class Switch {
                 System.out.println("was printed 1 or 2 or 3 or 4 or 5");
                 break;
             default:
-                System.out.println("was error");
+                System.out.println("was error in integers ");
                 break;
         }
 
+        String word="abc";
+        switch (word) {
+            case "abc":
+                System.out.println("was printed abc");
+                break;
+
+            case "xyz":
+                System.out.println("was printed xyz");
+                break;
+
+            default:
+                System.out.println("was error in word");
+
+        }
 
     }
 }
