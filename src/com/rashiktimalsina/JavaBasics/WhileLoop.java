@@ -1,4 +1,4 @@
-package com.rashiktimalsina;
+package com.rashiktimalsina.JavaBasics;
 
 public class WhileLoop {
     public static void main(String[] args) {

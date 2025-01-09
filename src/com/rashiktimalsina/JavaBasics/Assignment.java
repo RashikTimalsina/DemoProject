@@ -1,4 +1,4 @@
-package com.rashiktimalsina;
+package com.rashiktimalsina.JavaBasics;
 
 //
 //Create a method called displayHighScorePosition
